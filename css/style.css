@@ -36,3 +36,33 @@ header {
     border: 1px solid #006aff;
     color: #006aff;
 }
+
+#banner .jumbotron {
+    color: white;
+    background-image: url('https://web.archive.org/web/20200201065644im_/https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+}
+
+#banner .jumbotron .box-signup form {
+    width: 400px;
+    color: black;
+    background-color: white;
+    padding: 20px 20px;
+    margin: 30px auto;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+#banner .jumbotron .box-signup h2 {
+    color: black;
+    font-size: 20px;
+    line-height: 1;
+}
+
+#banner .jumbotron .box-signup button {
+    width: 100%;
+    height: 25px;
+}
+#banner .jumbotron .box-signup button:first-child {
+background-color: red;
+color: black;
+}
