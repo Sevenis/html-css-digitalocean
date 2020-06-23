@@ -8,10 +8,11 @@ header {
 
 .btn {
     height: 20px;
-    width: 50px;
-    font-size: 15px;
+    width: 70px;
+    font-size: 12px;
     border: 1px solid #006aff;
     color: #006aff;
+    line-height: 7px;
 }
 
 .sev_navbar .logo {
@@ -22,13 +23,13 @@ header {
 }
 
 .sev_navbar .navbar-nav {
-    padding-top: 5px;
+    /* padding-top: 5px; */
     font-size: 12px;
 }
 
 .sev_navbar .navbar-nav li a {
-color: #12295a;
-color: red;
+    color: #12295a;
+    /* color: red; */
 }
 
 .sev_navbar .navbar-nav .navbar-right .btn-empty {
