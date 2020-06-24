@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -7,12 +13,20 @@ header {
 }
 
 .btn {
-    height: 20px;
-    width: 70px;
+    /* height: 20px;
+    width: 70px; */
     font-size: 12px;
+    /* border: 1px solid #006aff;
+    color: #006aff; */
+    /* line-height: 7px; */
+
+}
+
+.header-sign-up {
+    padding: 10px 15px !important;
+    margin-top: 5px;
     border: 1px solid #006aff;
-    color: #006aff;
-    line-height: 7px;
+    color: #006aff !important;
 }
 
 .sev_navbar .logo {
@@ -32,14 +46,35 @@ header {
     /* color: red; */
 }
 
-.sev_navbar .navbar-nav .navbar-right .btn-empty {
+/* .sev_navbar .navbar-nav .navbar-right .btn-empty {
     border: 1px solid #006aff;
     color: #006aff;
-}
+} */
 
 #banner .jumbotron {
     color: white;
     background-image: url('https://web.archive.org/web/20200201065644im_/https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+}
+
+#banner .jumbotron .container {
+    padding-top: 40px;
+}
+
+#banner .jumbotron .jumbo-title {
+    padding-top: 50px;
+}
+
+#banner .jumbotron .jumbo-title h1 {
+    width: 450px;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#banner .jumbotron .jumbo-title p {
+    width: 500px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
 }
 
 #banner .jumbotron .box-signup form {
@@ -47,22 +82,71 @@ header {
     color: black;
     background-color: white;
     padding: 20px 20px;
-    margin: 30px auto;
+    margin-top: 30px;
     vertical-align: middle;
     border-radius: 5px;
+    float: right;
 }
 
 #banner .jumbotron .box-signup h2 {
     color: black;
     font-size: 20px;
-    line-height: 1;
+    padding-bottom: 10px;
 }
 
 #banner .jumbotron .box-signup button {
     width: 100%;
-    height: 25px;
 }
-#banner .jumbotron .box-signup button:first-child {
-background-color: red;
-color: black;
+
+.bg-btn:last-child button{
+    background-color: white;
+    color: #606060;
+    /* text-align: center; */
+    box-shadow: 1px 1px 1px #dedede;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+.bg-btn:first-child button{
+    background-color: #0069ff;
+    color: white;
+    margin-bottom: 5px;
+    /* text-align: center; */
+    padding-bottom: 10px;
+}
+
+/* CUSTONERS ZONE */
+#customers {
+    background-color: #f3f5f9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#customers p {
+    color:#939eb4;
+}
+
+.logo-customer li {
+    display: inline-block;
+    padding
+}
+
+/* FEATURES ZONE */
+
+#features {
+    background-color: white;
+}
+
+#features p {
+     font-size: 15px;
+     color: #606060;
+ }
+
+
+
+ #features li {
+     list-style: none;
+     border-left: 1px solid #606060;
+     padding: 10px 5px;
+     color: #606060;
+ }

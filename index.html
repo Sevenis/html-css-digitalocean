@@ -46,7 +46,7 @@
                         </li>
                         <li><a href="#">login</a></li>
                         <li class="signup">
-                         <a><button class="btn btn-empty">Sign Up</button></a>
+                         <a href="#" class="btn btn-empty header-sign-up">Sign Up</a>
                         </li>
                       </ul>
                       </div><!-- /.navbar-collapse -->
@@ -54,13 +54,15 @@
                 </nav>
             </div>
         </header>
-        <section id="banner" class="sev_bg-banner text-capitalize">
+        <section id="banner" class="sev_bg-banner">
             <div class="jumbotron">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <h1>the simplest cloud platform for developers & teams</h1>
-                            <p>deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. we make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+                            <div class="jumbo-title">
+                                <h1>The simplest cloud platform for developers & teams</h1>
+                                <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+                            </div>
                         </div>
                         <div class="col-md-6">
                             <div class="box-signup text-center">
@@ -76,11 +78,11 @@
                                         <!-- <label for="exampleInputPassword1">Password</label> -->
                                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                                       </div>
-                                      <a><button type="submit" class="btn btn-signup">Create your account</button></a>
-                                      <a><button type="submit" class="btn btn-signup"> <img src="https://img.icons8.com/color/16/000000/google-logo.png">Sign up using google</button></a>
-                                      <small id="termService" class="form-text text-muted text-capitalize">by signing up you agree to the <a href="https://www.digitalocean.com/legal/terms-of-service-agreement" target="_blank">Term of Service</a></small>
-
-
+                                         <div>
+                                              <a class="bg-btn" href="#"><button type="submit" class="btn btn-signup">Create your account</button></a>
+                                              <a class="bg-btn" href="#"><button type="submit" class="btn btn-signup"> <img src="https://img.icons8.com/color/16/000000/google-logo.png">Sign up using google</button></a>
+                                        </div>
+                                      <small id="termService" class="form-text text-muted">By signing up you agree to the <a href="https://www.digitalocean.com/legal/terms-of-service-agreement" target="_blank">Term of Service</a></small>
                                 </form>
                             </div>
                         </div>
@@ -88,5 +90,75 @@
                 </div>
             </div>
         </section>
+        <section id="customers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="text-uppercase">innovative businesses trust digitalocean</p>
+                        <ul class="logo-customer">
+                            <li><img src="https://images.prismic.io/www-static/591cf605-46aa-4a7b-8af5-90036c252c97_docker-bab60eeb.svg?auto=compress,format" alt="Docker"></li>
+                            <li><img src="https://images.prismic.io/www-static/da244a8e-2546-47b1-aae2-b9824c657708_gitlab-166e2067.svg?auto=compress,format" alt="GitLab"></li>
+                            <li><img src="https://images.prismic.io/www-static/b3f152c0-5465-45ba-80ab-2cdd258e6bee_slack-e20293da.svg?auto=compress,format" alt="Slack"></li>
+                            <li><img src="https://images.prismic.io/www-static/9351f07e-afbc-439a-a75f-3eca82be9c0e_hashicorp-4431df79.svg?auto=compress,format" alt="HashiCorp"></li>
+                            <li><img src="https://images.prismic.io/www-static/01ff74d1-79dd-4f18-888f-4a93a976e61d_wework-be6eab32.svg?auto=compress,format" alt="wework"></li>
+                            <li><img src="https://images.prismic.io/www-static/1583c145-22f8-402c-96f8-3af919a0df25_splunklogo.svg?auto=compress,format" alt="splunk"></li>
+                        </ul>
+                        <a href="https://www.digitalocean.com/business/">See business solutions   > </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="container text-center">
+                <h2>Deploy and scale seamlessly</h2>
+                <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+            </div>
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="jumbo-menu">
+                                <li>Deploy</li>
+                                <li>Manage</li>
+                                <li>Secure</li>
+                                <li>Scale</li>
+                                <li>Monitor</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="https://images.prismic.io/www-static/16ae92b4-6939-446c-b6a3-0ffec01cdc14_kublogoicon.svg?auto=compress,format" alt="Kubernetes in minutes">
+                                    <h4>Kubernetes in minutes</h4>
+                                    <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="https://images.prismic.io/www-static/9d343e9c-fe74-4979-8ad9-e8efc58d6ee7_dropletinboxicon.svg?auto=compress,format" alt="Flexible compute types">
+                                    <h4>Flexible compute types</h4>
+                                    <p>With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="https://images.prismic.io/www-static/936bb585-99ba-460d-ae2f-7bbdae8896cc_stacksplusicon.svg?auto=compress,format" alt="">
+                                    <h4>1-Click App Marketplace</h4>
+                                    <p>Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="https://images.prismic.io/www-static/0eee6655-dfce-46b2-ab48-f40ff27d8a73_globeicon.svg?auto=compress,format" alt="">
+                                    <h4>Global availability</h4>
+                                    <p>Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
+                                </div>
+                            </div>
+
+
+
+
+
+        </section>
+
+
+
+
     </body>
 </html>
