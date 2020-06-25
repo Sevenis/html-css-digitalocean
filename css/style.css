@@ -22,6 +22,11 @@ header {
 
 }
 
+.dots {
+    font-size: 10px;
+    color: #006aff;
+}
+
 .header-sign-up {
     padding: 10px 15px !important;
     margin-top: 5px;
@@ -54,6 +59,7 @@ header {
 #banner .jumbotron {
     color: white;
     background-image: url('https://web.archive.org/web/20200201065644im_/https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    margin-bottom:0;
 }
 
 #banner .jumbotron .container {
@@ -133,20 +139,55 @@ header {
 
 /* FEATURES ZONE */
 
-#features {
+#deploy-screen {
     background-color: white;
 }
 
-#features p {
+#deploy-screen .jumbotron {
+    background-color: white;
+}
+
+#deploy-screen p {
      font-size: 15px;
      color: #606060;
  }
 
-
-
- #features li {
+ #deploy-screen li {
      list-style: none;
      border-left: 1px solid #606060;
      padding: 10px 5px;
      color: #606060;
  }
+
+/* SCREEN PREVIEW */
+
+.screen-preview {
+    background-color: #f3f5f9;
+    color: #12295a;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sp-titolo {
+    margin: 36px;
+    line-height: 3;
+}
+
+.sp-titolo p {
+    font-size:20px;
+}
+
+.sp-screenshot img {
+    height: 500px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.sp-screenshot [class*="fa-chevron-"] {
+    font-size: 30px;
+    display: inline-block;
+    color: grey;
+    margin: 0 20px;
+}
+
+/* FEATURES ZONE */
