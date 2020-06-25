@@ -18,6 +18,11 @@ header {
     background-color: white;
 }
 
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .btn {
     /* height: 20px;
     width: 70px; */
@@ -48,23 +53,20 @@ header {
 }
 
 .sev_navbar .navbar-nav {
-    /* padding-top: 5px; */
     font-size: 12px;
 }
 
 .sev_navbar .navbar-nav li a {
     color: #12295a;
-    /* color: red; */
 }
 
-/* .sev_navbar .navbar-nav .navbar-right .btn-empty {
-    border: 1px solid #006aff;
-    color: #006aff;
-} */
+
 
 #banner .jumbotron {
     color: white;
     background-image: url('https://web.archive.org/web/20200201065644im_/https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-bottom:0;
 }
 
@@ -113,7 +115,6 @@ header {
 .bg-btn:last-child button{
     background-color: white;
     color: #606060;
-    /* text-align: center; */
     box-shadow: 1px 1px 1px #dedede;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -123,15 +124,12 @@ header {
     background-color: #0069ff;
     color: white;
     margin-bottom: 5px;
-    /* text-align: center; */
     padding-bottom: 10px;
 }
 
 /* CUSTONERS ZONE */
 #customers {
     background-color: #f3f5f9;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 #customers p {
@@ -166,12 +164,9 @@ header {
  }
 
 /* SCREEN PREVIEW */
-
 .screen-preview {
     background-color: #f3f5f9;
     color: #12295a;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .sp-titolo {
@@ -197,19 +192,15 @@ header {
 }
 
 /* FEATURES ZONE */
-
 #features .col-md-12 h2 {
     text-align: center;
     padding-bottom: 20px;
 }
 
 /* BANDWITH ZONE */
-
 #bandwith {
-    height: 400px;
     /* background-color: linear-gradient(#006aff, #0069ff); */
     background-color: #0069ff;
-    padding-top: 40px;
     color: white;
     font-weight: bold;
 }
@@ -234,7 +225,6 @@ header {
 
 .test-speed {
     float: right;
-    /* padding-left: 100px; */
 }
 
 .test-speed a{
@@ -242,13 +232,10 @@ header {
 }
 
 /* SCREEN PREVIEW ROCKERBOX */
-
 .rockerbox {
     width: 450px;
     background-color: white;
     display: inline-block;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .rockerbox .rockerbox-logo {
@@ -258,4 +245,50 @@ header {
 
 .sp-quote .dots {
     padding-top: 40px;
+}
+
+/* Create-Account Zone */
+.create-account {
+    background-color: #0153ff;
+    color: white;
+}
+
+.btn-register {
+    padding: 10px 15px;
+    margin-top: 5px;
+    background-color: white;
+    color: #006aff;
+}
+
+footer {
+    background-color: #12295a;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.smalltxt {
+    width: 300px;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.greytxt {
+    color: grey;
+}
+
+footer .icon li {
+    font-size: 20px;
+    color: grey;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+footer .links li {
+    list-style: none;
+    font-size: 12px;
+    padding: 3px 0;
+}
+footer .links a {
+    color: lightgrey;
 }
