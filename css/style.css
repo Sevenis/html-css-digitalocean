@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -183,7 +189,7 @@ header {
     margin-bottom: 20px;
 }
 
-.sp-screenshot [class*="fa-chevron-"] {
+[class*="fa-chevron-"] {
     font-size: 30px;
     display: inline-block;
     color: grey;
@@ -191,3 +197,65 @@ header {
 }
 
 /* FEATURES ZONE */
+
+#features .col-md-12 h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* BANDWITH ZONE */
+
+#bandwith {
+    height: 400px;
+    /* background-color: linear-gradient(#006aff, #0069ff); */
+    background-color: #0069ff;
+    padding-top: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.band-check {
+    padding-top: 10px;
+    display: block;
+}
+
+.band-check:not(:last-of-type){
+    border-bottom: 1px solid white;
+}
+
+.sigla {
+    float: left;
+}
+
+.server {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.test-speed {
+    float: right;
+    /* padding-left: 100px; */
+}
+
+.test-speed a{
+    color: #00d7d2;
+}
+
+/* SCREEN PREVIEW ROCKERBOX */
+
+.rockerbox {
+    width: 450px;
+    background-color: white;
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.rockerbox .rockerbox-logo {
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+.sp-quote .dots {
+    padding-top: 40px;
+}
